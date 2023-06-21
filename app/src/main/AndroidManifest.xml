@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.thakur.HealthCare_App">
+    package="com.thakur.customer_app">
 
     <application
         android:allowBackup="true"
@@ -14,40 +14,55 @@
         android:theme="@style/Theme.Customer_App"
         tools:targetApi="31">
         <activity
-            android:name="com.thakur.HealthCare_App.BuyMedicineActivity"
+            android:name=".HealthArticlesDetailsActivity"
             android:exported="false" />
         <activity
-            android:name="com.thakur.HealthCare_App.OrderDetailsActivity"
+            android:name=".HealthArticlesActivity"
             android:exported="false" />
         <activity
-            android:name="com.thakur.HealthCare_App.LabTestBookActivity"
+            android:name=".BuyMedicineBookActivity"
             android:exported="false" />
         <activity
-            android:name="com.thakur.HealthCare_App.CartLabActivity"
+            android:name=".CartBuyMedicineActivity"
             android:exported="false" />
         <activity
-            android:name="com.thakur.HealthCare_App.LabTestDetailsActivity"
+            android:name=".BuyMedicineDetailsActivity"
             android:exported="false" />
         <activity
-            android:name="com.thakur.HealthCare_App.LabTestActivity"
+            android:name=".BuyMedicineActivity"
             android:exported="false" />
         <activity
-            android:name="com.thakur.HealthCare_App.BookAppointmentActivity"
+            android:name=".OrderDetailsActivity"
             android:exported="false" />
         <activity
-            android:name="com.thakur.HealthCare_App.DoctorDetailsActivity"
+            android:name=".LabTestBookActivity"
             android:exported="false" />
         <activity
-            android:name="com.thakur.HealthCare_App.FindDoctorActivity"
+            android:name=".CartLabActivity"
             android:exported="false" />
         <activity
-            android:name="com.thakur.HealthCare_App.HomeActivity"
+            android:name=".LabTestDetailsActivity"
             android:exported="false" />
         <activity
-            android:name="com.thakur.HealthCare_App.RegisterActivity"
+            android:name=".LabTestActivity"
             android:exported="false" />
         <activity
-            android:name="com.thakur.HealthCare_App.LoginActivity"
+            android:name=".BookAppointmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DoctorDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FindDoctorActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -56,7 +71,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.thakur.HealthCare_App.MainActivity"
+            android:name=".MainActivity"
             android:exported="false" />
     </application>
 

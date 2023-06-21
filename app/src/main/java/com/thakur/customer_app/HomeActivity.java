@@ -1,4 +1,4 @@
-package com.thakur.HealthCare_App;
+package com.thakur.customer_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;
@@ -50,7 +50,9 @@ public class HomeActivity extends AppCompatActivity {
         orderDetails.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(HomeActivity.this,OrderDetailsActivity.class));
+                Intent it = new Intent(HomeActivity.this,OrderDetailsActivity.class);
+                it.putExtra("username",username);
+                startActivity(it);
             }
         });
 
@@ -59,6 +61,13 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(HomeActivity.this,BuyMedicineActivity.class));
+            }
+        });
+        CardView health = findViewById(R.id.cardHealthDoctor);
+        health.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(HomeActivity.this,HealthArticlesActivity.class));
             }
         });
 

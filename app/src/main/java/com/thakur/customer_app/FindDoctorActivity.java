@@ -1,4 +1,4 @@
-package com.thakur.HealthCare_App;
+package com.thakur.customer_app;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.cardview.widget.CardView;

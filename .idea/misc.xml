@@ -12,10 +12,15 @@
         <entry key="..\:/android peoject/Customer_App/app/src/main/res/drawable/info.xml" value="0.114" />
         <entry key="..\:/android peoject/Customer_App/app/src/main/res/drawable/input_bg.xml" value="0.114" />
         <entry key="..\:/android peoject/Customer_App/app/src/main/res/layout/activity_book_appointment.xml" value="0.18229166666666666" />
-        <entry key="..\:/android peoject/Customer_App/app/src/main/res/layout/activity_buy_medicine.xml" value="0.10925925925925926" />
+        <entry key="..\:/android peoject/Customer_App/app/src/main/res/layout/activity_buy_medicine.xml" value="0.22" />
+        <entry key="..\:/android peoject/Customer_App/app/src/main/res/layout/activity_buy_medicine_book.xml" value="0.10925925925925926" />
+        <entry key="..\:/android peoject/Customer_App/app/src/main/res/layout/activity_buy_medicine_details.xml" value="0.18229166666666666" />
+        <entry key="..\:/android peoject/Customer_App/app/src/main/res/layout/activity_cart_buy_medicine.xml" value="0.21" />
         <entry key="..\:/android peoject/Customer_App/app/src/main/res/layout/activity_cart_lab.xml" value="0.2" />
         <entry key="..\:/android peoject/Customer_App/app/src/main/res/layout/activity_doctor_detail.xml" value="0.22" />
         <entry key="..\:/android peoject/Customer_App/app/src/main/res/layout/activity_find_doctor.xml" value="0.18229166666666666" />
+        <entry key="..\:/android peoject/Customer_App/app/src/main/res/layout/activity_health_articles.xml" value="0.18" />
+        <entry key="..\:/android peoject/Customer_App/app/src/main/res/layout/activity_health_articles_details.xml" value="0.16822916666666668" />
         <entry key="..\:/android peoject/Customer_App/app/src/main/res/layout/activity_home.xml" value="0.17" />
         <entry key="..\:/android peoject/Customer_App/app/src/main/res/layout/activity_lab_test.xml" value="0.15" />
         <entry key="..\:/android peoject/Customer_App/app/src/main/res/layout/activity_lab_test_book.xml" value="0.18229166666666666" />
